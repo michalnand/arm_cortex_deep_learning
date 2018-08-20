@@ -1,7 +1,7 @@
 #ifndef _NN_DEMO_H_
 #define _NN_DEMO_H_
 
-#include "MyNetDCNN/MyNetDCNN.h"
+#include "MyNet/MyNet.h"
 
 class NNDemo
 {
@@ -9,7 +9,7 @@ class NNDemo
     unsigned int item_idx;
     unsigned int nn_result, correct, wrong, duration;
 
-    MyNetDCNN nn;
+    MyNet nn;
 
   public:
     NNDemo();
